@@ -1,6 +1,4 @@
 <script>
-  import svelteLogo from "./assets/svelte.svg";
-  import viteLogo from "/vite.svg";
   import Counter from "./lib/Counter.svelte";
   import {
     Button,
@@ -14,24 +12,47 @@
     CardText,
     CardTitle,
     Container,
+    Nav,
+    NavItem,
+    Dropdown,
+    DropdownItem,
+    DropdownToggle,
+    DropdownMenu,
+    NavLink,
   } from "@sveltestrap/sveltestrap";
+
+  let isOpen = false;
 </script>
 
 <main>
   <Container>
+    <Nav pills>
+      <NavItem>
+        <NavLink href="#" active>Home</NavLink>
+      </NavItem>
+      <Dropdown nav {isOpen} toggle={() => (isOpen = !isOpen)}>
+        <DropdownToggle nav caret>Dropdown</DropdownToggle>
+        <DropdownMenu>
+          <DropdownItem header>Header</DropdownItem>
+          <DropdownItem disabled>Action</DropdownItem>
+          <DropdownItem>Another Action</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>Another Action</DropdownItem>
+        </DropdownMenu>
+      </Dropdown>
+      <NavItem>
+        <NavLink href="#">Link</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="#">Another Link</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink disabled href="#">Disabled Link</NavLink>
+      </NavItem>
+    </Nav>
     <header>
       <h1>Harrison Cole</h1>
       <img src="HarrisonPhoto.jpg" alt="me" width="350" height="350" />
-
-      <nav class="navbar navbar-dark">
-        <ul>
-          <li class="nav-item">
-            <a class="btn btn-primary" href="index.html">Home</a>
-          </li>
-          <li class="nav-item"><a href="assignments.html">Assignments</a></li>
-          <li class="nav-item"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
     </header>
     <section>
       <h2>About me</h2>
@@ -82,7 +103,7 @@
           <CardTitle>Blackjack Game ♠</CardTitle>
         </CardHeader>
         <CardBody>
-          <CardSubtitle>Tech Stack: "Vanilla" JS/CSS/HTML</CardSubtitle>
+          <CardSubtitle>JS/CSS/HTML Startup</CardSubtitle>
           <CardText
             >This is a vanilla JS/CSS/HTML project I used to learn about web
             development and get exposure to different kinds of web technologies
@@ -102,7 +123,7 @@
           <CardTitle>Simon Game</CardTitle>
         </CardHeader>
         <CardBody>
-          <CardSubtitle>Tech Stack: React.js</CardSubtitle>
+          <CardSubtitle>React.js Demo</CardSubtitle>
           <CardText
             >This is a React.js project that mimics the classic Simon game. It
             was my first exposure to React, and actually started as a vanilla

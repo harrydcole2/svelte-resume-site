@@ -1,0 +1,18 @@
+{
+  "projectCards": [
+    {
+      "id": 1,
+      "title": "Blackjack Game ♠",
+      "subtitle": "JS/CSS/HTML Startup",
+      "text": "This is a vanilla JS/CSS/HTML project I used to learn about web development and get exposure to different kinds of web technologies from the ground up. As the name suggests, the business logic is a blackjack simulator that you can bet pseudo money against. It taught me a lot about the DOM and events in the browser. You can login/register, see others earnings online (via websockets), look at a scoreboard, and play blackjack (of course).",
+      "href": "https://startup.harrisondcole.click"
+    },
+    {
+      "id": 2,
+      "title": "Simon Game",
+      "subtitle": "React.js Demo",
+      "text": "This is a React.js project that mimics the classic Simon game. It was my first exposure to React, and actually started as a vanilla project so that we could understand its roots. More than anything, it act as a great resource for understanding how projects are built and deployed and the elements that go into a good web application. While Simon is a simple concept, there are a lot of features in the site that are added as examples of something more scalable, e.g. working with sound, making requests to an API, communication between users, etc.",
+      "href": "https://simon.harrisondcole.click"
+    }
+  ]
+}
