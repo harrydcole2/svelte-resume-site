@@ -1,47 +1,109 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import svelteLogo from "./assets/svelte.svg";
+  import viteLogo from "/vite.svg";
+  import Counter from "./lib/Counter.svelte";
+  import {
+    Button,
+    Card,
+    CardBody,
+    CardFooter,
+    CardGroup,
+    CardHeader,
+    CardLink,
+    CardSubtitle,
+    CardText,
+    CardTitle,
+    Container,
+  } from "@sveltestrap/sveltestrap";
 </script>
 
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+  <Container>
+    <header>
+      <h1>Harrison Cole</h1>
+      <img src="HarrisonPhoto.jpg" alt="me" width="350" height="350" />
 
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+      <nav class="navbar navbar-dark">
+        <ul>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="index.html">Home</a>
+          </li>
+          <li class="nav-item"><a href="assignments.html">Assignments</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>About me</h2>
+      <p>
+        Hey! My name is Harrison Cole and I am from Camas, Washington. I am the
+        oldest of four kids and have a dog and two birds at home. Growing up in
+        the great northwest, I love doing anything outdoors especially hiking
+        and climbing. In high school I played tennis and basketball and
+        participated in choir as well.
+      </p>
+      <p>
+        I am an aspiring web programmer and am currently studying computer
+        science here at BYU. My goal for my education is to learn about new
+        perspectives and ideas that will inform how I see the world and what I
+        can add to it; to be as prepared as I can be to support a family and
+        manage effective relationships with others; and to find things I am
+        passionate about learning and doing in my work and my leisure time. I am
+        discovering that computer science is where these joint goals intersect.
+        And I continue to learn a lot about myself every day.
+      </p>
+    </section>
+    <div class="card-grid">
+      <Card>
+        <CardHeader>
+          <CardTitle>Blackjack Game ♠</CardTitle>
+        </CardHeader>
+        <CardBody>
+          <CardSubtitle>Startup Project</CardSubtitle>
+          <CardText
+            >This is a vanilla JS/CSS/HTML project I used to learn about web
+            development and get exposure to different kinds of web technologies
+            from the ground up. As the name suggests, the business logic is a
+            blackjack simulator that you can bet pseudo money against. It taught
+            me a lot about the DOM and events in the browser. You can
+            login/register, see others earnings online (via websockets), look at
+            a scoreboard, and play blackjack (of course).
+          </CardText>
+          <CardLink href="https://startup.harrisondcole.click"
+            >Take a look!</CardLink
+          >
+        </CardBody>
+      </Card>
+      <Card>
+        <CardHeader>
+          <CardTitle>Simon Game</CardTitle>
+        </CardHeader>
+        <CardBody>
+          <CardSubtitle>Demo Project</CardSubtitle>
+          <CardText
+            >This is a React.js project that mimics the classic Simon game. It
+            was my first exposure to React, and actually started as a vanilla
+            project so that we could understand its roots. More than anything,
+            it act as a great resource for understanding how projects are built
+            and deployed and the elements that go into a good web application.
+            While Simon is a simple concept, there are a lot of features in the
+            site that are added as examples of something more scalable, e.g.
+            working with sound, making requests to an API, communication between
+            users, etc.
+          </CardText>
+          <CardLink href="https://startup.harrisondcole.click"
+            >Take a look!</CardLink
+          >
+        </CardBody>
+      </Card>
+    </div>
+  </Container>
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
   }
 </style>
