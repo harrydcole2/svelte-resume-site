@@ -3,10 +3,6 @@
   import { Router, Link, Route } from "svelte-routing";
   import Home from "./routes/Home.svelte";
   import About from "./routes/About.svelte";
-  import api from "./utils/api";
-
-  const data = api.get("/projectCards");
-  console.log(data);
 </script>
 
 <div class="wrapper">
