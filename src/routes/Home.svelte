@@ -51,7 +51,12 @@
     </Nav>
     <header>
       <h1>Harrison Cole</h1>
-      <img src="HarrisonPhoto.jpg" alt="me" width="350" height="350" />
+      <img
+        src="src/assets/HarrisonPhoto.jpg"
+        alt="me"
+        width="350"
+        height="350"
+      />
     </header>
     <section>
       <h2>About me</h2>
