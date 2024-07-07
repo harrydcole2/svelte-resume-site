@@ -19,71 +19,46 @@
     DropdownMenu,
     NavLink,
   } from "@sveltestrap/sveltestrap";
+
   import api from "/src/utils/api";
+  const projectCards = api.get("/projectCards");
 
   let isOpen = false;
 </script>
 
 <main>
-  <Nav pills>
-    <NavItem>
-      <NavLink href="#" active>Home</NavLink>
-    </NavItem>
-    <Dropdown nav {isOpen} toggle={() => (isOpen = !isOpen)}>
-      <DropdownToggle nav caret>Dropdown</DropdownToggle>
-      <DropdownMenu>
-        <DropdownItem header>Header</DropdownItem>
-        <DropdownItem disabled>Action</DropdownItem>
-        <DropdownItem>Another Action</DropdownItem>
-        <DropdownItem divider />
-        <DropdownItem>Another Action</DropdownItem>
-      </DropdownMenu>
-    </Dropdown>
-    <NavItem>
-      <NavLink href="#">Link</NavLink>
-    </NavItem>
-    <NavItem>
-      <NavLink href="#">Another Link</NavLink>
-    </NavItem>
-    <NavItem>
-      <NavLink disabled href="#">Disabled Link</NavLink>
-    </NavItem>
-  </Nav>
   <header>
     <h1>Harrison Cole</h1>
     <img src="src/assets/HarrisonPhoto.jpg" alt="me" width="350" height="350" />
   </header>
   <section>
-    <h2>About me</h2>
+    <h2>About Me</h2>
     <p>
-      Hi! My name is Harrison Cole and I am from Camas, Washington. I am the
-      oldest of four kids and have a dog and two birds at home. Growing up in
-      the great northwest, I love doing anything outdoors especially hiking and
-      climbing. In high school I played tennis and basketball and participated
-      in choir as well.
+      Hi! My name is Harrison Cole and I from Vancouver, WA. I am an aspiring
+      web programmer, developer, and entrepreneur, and am currently finishing up
+      my degree in Computer Science at BYU. I will be graduating in April which
+      is really exciting! I am passionate about learning new technologies and
+      making software ideas realities. Right now I work as a web developer for
+      3jlabs, which has been a great experience! I might link some of the
+      projects I have worked on here in the future.
     </p>
     <p>
-      I am an aspiring web programmer, developer, and entrepreneur. Currently, I
-      am finishing up my computer science degree and business minor here at BYU.
-      My goal for my education is to learn about new perspectives and ideas that
-      will inform how I see the world and what I can add to it; to be as
-      prepared as I can be to support a family and manage effective
-      relationships with others; and to find things I am passionate about
-      learning and doing in my work and my leisure time. I am discovering that
-      computer science is where these joint goals intersect. And I continue to
-      learn a lot about myself every day.
+      Outside of programming, I enjoy being outdoors and playing sports,
+      especially basketball and tennis. I also enjoy reading, playing the piano,
+      and singing. I come from a family of 6, and am the oldest of 4 kids with a
+      dog and 2 birds, which also keeps me busy.
     </p>
   </section>
   <section>
-    <h2>About this website</h2>
+    <h2>About This Website</h2>
     <p>
       Frankly, this website is probably more for me than it is for you.
       Originally, it was an static HTML site that I created as part of an
       introductory CS class, but as I still own the domain and virtual server, I
       wanted to (a) get some basic practice with Svelte, and (b) document some
-      packages, technologies, and ideas about web development. Check out some of
-      the content below and on other tabs! A lot of this site is just web
-      development ideas.
+      packages, technologies, and ideas about web development. Think of it as my
+      waystation for web development. Check out some of the content below and on
+      other tabs!
     </p>
     <p>
       At first, I imagined annotating and creating different subdomain projects
@@ -107,13 +82,19 @@
         </CardBody>
       </Card>
     {/each}
+    <Card>
+      <CardHeader>
+        <CardTitle>More to come!</CardTitle>
+      </CardHeader>
+    </Card>
   </div>
 </main>
 
 <style>
   .card-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
+    padding-top: 24px;
   }
 </style>
