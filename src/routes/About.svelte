@@ -40,20 +40,25 @@
     justify-content: center;
     /* align-items: center; */
     min-height: 100vh;
-    background: linear-gradient(
+    /* background-image: linear-gradient(
       90deg,
-      #f0f0f0 20%,
+      url({gray}) 20%,
       #ffffff 20%,
       #ffffff 80%,
-      #f0f0f0 80%
-    );
+      url({gray}) 80%
+    ); */
+    background: none;
+    background-image: url(../assets/gray.jpg), url(../assets/gray.jpg);
+    background-position: left, right;
+    /* background-repeat: no-repeat; */
+    background-size: 20%, 20%;
   }
 
   .custom-container {
     background: white;
     padding: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    /* border-radius: 3px; */
     min-height: 100vh;
 
     /* max-width: 600px; */
