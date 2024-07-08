@@ -21,7 +21,7 @@
 </script>
 
 <div class="top-fixed">
-  <Navbar />
+  <Navbar {isScrolled} />
 </div>
 <div
   class="wrapper"

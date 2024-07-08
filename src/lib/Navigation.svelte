@@ -9,18 +9,7 @@
   } from "@sveltestrap/sveltestrap";
   import Photo from "/src/assets/HarrisonPhoto.jpg";
 
-  export let isScrolled = false;
-
-  const handleScroll = () => {
-    isScrolled = window.scrollY > 0;
-  };
-
-  onMount(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
+  export let isScrolled;
 </script>
 
 <div class:scrolled={isScrolled} class:not-scrolled={!isScrolled}>
