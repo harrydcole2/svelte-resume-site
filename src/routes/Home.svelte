@@ -24,13 +24,16 @@
   const projectCards = api.get("/projectCards");
 
   let isOpen = false;
+
+  let placeholderWidths = Array.from({ length: 10 }, () => getRandomWidth());
+  function getRandomWidth() {
+    return Math.floor(Math.random() * (100 - 85 + 1)) + 85;
+  }
 </script>
 
 <main>
-  <header>
-    <h1>Harrison Cole</h1>
-    <img src="src/assets/HarrisonPhoto.jpg" alt="me" width="350" height="350" />
-  </header>
+  <hr />
+  <br />
   <section>
     <h2>About Me</h2>
     <p>
@@ -51,6 +54,7 @@
       dog and 2 birds, which also has a way of keeping me busy.
     </p>
   </section>
+  <br />
   <section>
     <h2>About This Website</h2>
     <p>
@@ -86,8 +90,18 @@
     {/each}
     <Card>
       <CardHeader>
-        <CardTitle>More to come!</CardTitle>
+        <CardTitle>More to Come!</CardTitle>
       </CardHeader>
+      <CardBody>
+        <CardSubtitle class="py-2"
+          ><div class="placeholder-header"></div></CardSubtitle
+        >
+        <CardText>
+          {#each placeholderWidths as width}
+            <div class="placeholder-line" style="width: {width}%;"></div>
+          {/each}
+        </CardText>
+      </CardBody>
     </Card>
   </div>
 </main>
@@ -98,5 +112,25 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     padding-top: 24px;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .placeholder-header {
+    width: 40%;
+    height: 1.25rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .placeholder-line {
+    width: 80%;
+    height: 1.25rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 5px;
   }
 </style>
