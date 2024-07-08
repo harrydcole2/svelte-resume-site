@@ -39,7 +39,15 @@
             class="avatar"
           />
           {#if !isScrolled}
-            <div class="page-title">Harrison<br />Cole</div>
+            <div>
+              <div class="page-title">
+                <h1>Harrison</h1>
+                <h1>Cole</h1>
+              </div>
+              <p style="margin-left: 1rem; margin-top: 1rem">
+                🏠 Provo | 🎓 BYU 2025 | 💼 3jlabs
+              </p>
+            </div>
           {/if}
         </div>
       </NavbarBrand>
@@ -62,7 +70,7 @@
 
 <style>
   :root {
-    --navbar-bg: #76d3c0;
+    --navbar-bg: #9de2d5;
     --navbar-bg-scrolled: #c4ffea;
   }
 

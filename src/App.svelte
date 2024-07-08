@@ -68,6 +68,6 @@
   }
 
   .not-scrolled {
-    margin-top: 16rem;
+    margin-top: 13.5rem;
   }
 </style>
