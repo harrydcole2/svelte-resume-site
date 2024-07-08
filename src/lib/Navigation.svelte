@@ -60,7 +60,7 @@
             <NavLink href="/about">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#contact">Contact</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </NavItem>
         </Nav>
       </div>

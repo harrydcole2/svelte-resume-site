@@ -2,7 +2,7 @@
   import { Container } from "@sveltestrap/sveltestrap";
   import { Router, Route } from "svelte-routing";
   import Home from "./routes/Home.svelte";
-  import About from "./routes/About.svelte";
+  import Contact from "./routes/Contact.svelte";
   import Navbar from "./lib/Navigation.svelte";
   import { onMount } from "svelte";
 
@@ -32,7 +32,7 @@
     <div class="custom-container">
       <Router>
         <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
       </Router>
     </div>
   </Container>
