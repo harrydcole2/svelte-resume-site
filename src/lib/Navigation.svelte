@@ -57,7 +57,7 @@
             <NavLink href="/">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/about">About</NavLink>
+            <NavLink href="/tools">Tools</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/contact">Contact</NavLink>
