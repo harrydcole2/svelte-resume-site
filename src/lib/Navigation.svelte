@@ -1,12 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte";
-  import {
-    Navbar,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-  } from "@sveltestrap/sveltestrap";
+  import { Navbar, NavbarBrand, Nav, NavItem } from "@sveltestrap/sveltestrap";
+  import { link } from "svelte-routing";
   import Photo from "/src/assets/HarrisonPhoto.jpg";
 
   export let isScrolled;
@@ -44,13 +39,13 @@
       <div class:align-bottom={!isScrolled} class="nav-container">
         <Nav navbar pills>
           <NavItem>
-            <NavLink href="/">Home</NavLink>
+            <a use:link class="nav-link" href="/">Home</a>
           </NavItem>
           <NavItem>
-            <NavLink href="/tools">Tools</NavLink>
+            <a use:link class="nav-link" href="/tools">Tools</a>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact">Contact</NavLink>
+            <a use:link class="nav-link" href="/contact">Contact</a>
           </NavItem>
         </Nav>
       </div>

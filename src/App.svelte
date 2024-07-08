@@ -18,6 +18,8 @@
       window.removeEventListener("scroll", handleScroll);
     };
   });
+
+  export let url = "";
 </script>
 
 <div class="top-fixed">
@@ -30,7 +32,7 @@
 >
   <Container>
     <div class="custom-container">
-      <Router>
+      <Router {url}>
         <Route path="/" component={Home} />
         <Route path="/contact" component={Contact} />
       </Router>
