@@ -7,6 +7,7 @@
     NavItem,
     NavLink,
   } from "@sveltestrap/sveltestrap";
+  import Photo from "/src/assets/HarrisonPhoto.jpg";
 
   export let isScrolled = false;
 
@@ -33,7 +34,7 @@
       <NavbarBrand href="/">
         <div class="avatar-container">
           <img
-            src="/src/assets/HarrisonPhoto.jpg"
+            src={Photo}
             alt="Avatar"
             class:avatar-shrunk={isScrolled}
             class="avatar"
