@@ -121,7 +121,7 @@
   .placeholder-header {
     width: 40%;
     height: 1.25rem;
-    background-color: #f0f0f0;
+    background-color: #dadada;
     border-radius: 8px;
     margin-bottom: 10px;
   }
@@ -129,7 +129,7 @@
   .placeholder-line {
     width: 80%;
     height: 1.25rem;
-    background-color: #f0f0f0;
+    background-color: #dadada;
     border-radius: 4px;
     margin-bottom: 5px;
   }

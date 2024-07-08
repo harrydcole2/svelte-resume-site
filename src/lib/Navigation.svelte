@@ -8,7 +8,7 @@
     NavLink,
   } from "@sveltestrap/sveltestrap";
 
-  let isScrolled = false;
+  export let isScrolled = false;
 
   const handleScroll = () => {
     isScrolled = window.scrollY > 0;
@@ -27,22 +27,23 @@
     expand="md"
     light
     container
-    scrolled={isScrolled}
     style="transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"
   >
-    <div class="navbar-content navbar-brand">
+    <div class="navbar-content">
       <NavbarBrand href="/">
-        <img
-          src="/src/assets/HarrisonPhoto.jpg"
-          alt="Avatar"
-          class:avatar-shrunk={isScrolled}
-          class="avatar"
-        />
-        {#if !isScrolled}
-          <div class="page-title">Harrison Cole</div>
-        {/if}
+        <div class="avatar-container">
+          <img
+            src="/src/assets/HarrisonPhoto.jpg"
+            alt="Avatar"
+            class:avatar-shrunk={isScrolled}
+            class="avatar"
+          />
+          {#if !isScrolled}
+            <div class="page-title">Harrison<br />Cole</div>
+          {/if}
+        </div>
       </NavbarBrand>
-      <div class:align-bottom={!isScrolled}>
+      <div class:align-bottom={!isScrolled} class="nav-container">
         <Nav navbar pills>
           <NavItem>
             <NavLink href="/">Home</NavLink>
@@ -89,18 +90,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     width: 100%;
   }
 
-  .navbar-brand {
+  .avatar-container {
     display: flex;
     align-items: center;
   }
 
   .page-title {
+    font-size: 2rem;
     font-weight: bold;
     margin-left: 1rem;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: flex-end;
   }
 
   .align-bottom {
