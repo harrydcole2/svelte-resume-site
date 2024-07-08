@@ -5,6 +5,12 @@
   import Photo from "/src/assets/HarrisonPhoto.jpg";
 
   export let isScrolled;
+
+  let location = window.location;
+
+  function recalculateLocation() {
+    location = window.location;
+  }
 </script>
 
 <div class:scrolled={isScrolled} class:not-scrolled={!isScrolled}>
@@ -15,8 +21,8 @@
     style="transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"
   >
     <div class="navbar-content">
-      <NavbarBrand href="/">
-        <div class="avatar-container">
+      <NavbarBrand>
+        <div class="avatar-container" use:link href="/">
           <img
             src={Photo}
             alt="Avatar"
@@ -37,15 +43,33 @@
         </div>
       </NavbarBrand>
       <div class:align-bottom={!isScrolled} class="nav-container">
-        <Nav navbar pills>
+        <Nav navbar>
           <NavItem>
-            <a use:link class="nav-link" href="/">Home</a>
+            <a
+              use:link
+              class="nav-link nav-link-custom"
+              on:click={recalculateLocation}
+              class:active={location.pathname === "/"}
+              href="/">Home</a
+            >
           </NavItem>
           <NavItem>
-            <a use:link class="nav-link" href="/tools">Tools</a>
+            <a
+              use:link
+              class="nav-link nav-link-custom"
+              on:click={recalculateLocation}
+              class:active={location.pathname === "/tools"}
+              href="/tools">Tools</a
+            >
           </NavItem>
           <NavItem>
-            <a use:link class="nav-link" href="/contact">Contact</a>
+            <a
+              use:link
+              class="nav-link nav-link-custom"
+              on:click={recalculateLocation}
+              class:active={location.pathname === "/contact"}
+              href="/contact">Contact</a
+            >
           </NavItem>
         </Nav>
       </div>
@@ -104,5 +128,13 @@
 
   .align-bottom {
     align-self: flex-end;
+  }
+
+  .nav-link-custom {
+    font-size: 1.2em;
+  }
+
+  .nav-link-custom.active {
+    font-weight: bold;
   }
 </style>

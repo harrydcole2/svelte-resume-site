@@ -2,7 +2,7 @@
   "projectCards": [
     {
       "id": 1,
-      "title": "Blackjack Game ♠",
+      "title": "Blackjack Game",
       "subtitle": "JS/CSS/HTML Startup",
       "text": "This is a vanilla JS/CSS/HTML project I used to learn about web development and get exposure to different kinds of web technologies from the ground up. As the name suggests, the business logic is a blackjack simulator that you can bet pseudo money against. It taught me a lot about the DOM and events in the browser. You can login/register, see others earnings online (via websockets), look at a scoreboard, and play blackjack (of course).",
       "href": "https://startup.harrisondcole.click"
