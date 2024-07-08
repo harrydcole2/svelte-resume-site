@@ -38,15 +38,17 @@
       web programmer, developer, and entrepreneur, and am currently finishing up
       my degree in Computer Science at BYU. I will be graduating in April which
       is really exciting! I am passionate about learning new technologies and
-      making software ideas realities. Right now I work as a web developer for
-      3jlabs, which has been a great experience! I might link some of the
+      thinking critically about the business side of those technologies. Right
+      now I work as a web developer for 3jlabs, which has been a great
+      experience! In that capacity I develop sites but also manage their Kanban
+      boards and work closely with the designer. I might link some of the
       projects I have worked on here in the future.
     </p>
     <p>
       Outside of programming, I enjoy being outdoors and playing sports,
       especially basketball and tennis. I also enjoy reading, playing the piano,
       and singing. I come from a family of 6, and am the oldest of 4 kids with a
-      dog and 2 birds, which also keeps me busy.
+      dog and 2 birds, which also has a way of keeping me busy.
     </p>
   </section>
   <section>
