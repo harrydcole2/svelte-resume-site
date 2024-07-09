@@ -1,10 +1,12 @@
 <script>
+  import { onMount } from "svelte";
   import { Container } from "@sveltestrap/sveltestrap";
   import { Router, Route } from "svelte-routing";
-  import Home from "./routes/Home.svelte";
-  import Contact from "./routes/Contact.svelte";
   import Navbar from "./lib/Navigation.svelte";
-  import { onMount } from "svelte";
+  import Home from "./routes/Home.svelte";
+  import Projects from "./routes/Projects.svelte";
+  import Resources from "./routes/Resources.svelte";
+  import Contact from "./routes/Contact.svelte";
 
   let isScrolled = false;
 
@@ -34,6 +36,8 @@
     <div class="custom-container">
       <Router {url}>
         <Route path="/" component={Home} />
+        <Route path="/projects" components={Projects} />
+        <Route path="/resources" component={Resources} />
         <Route path="/contact" component={Contact} />
       </Router>
     </div>
@@ -67,9 +71,11 @@
 
   .scrolled {
     margin-top: 5rem;
+    transition: all 0.3s ease;
   }
 
   .not-scrolled {
     margin-top: 13.5rem;
+    transition: all 0.3s ease;
   }
 </style>
