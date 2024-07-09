@@ -59,7 +59,16 @@
               class="nav-link nav-link-custom"
               on:click={recalculateLocation}
               class:active={location.pathname === "/projects"}
-              href="/projects">Projects & Ideas</a
+              href="/projects">Projects</a
+            >
+          </NavItem>
+          <NavItem>
+            <a
+              use:link
+              class="nav-link nav-link-custom"
+              on:click={recalculateLocation}
+              class:active={location.pathname === "/ideas"}
+              href="/ideas">Ideas</a
             >
           </NavItem>
           <NavItem>

@@ -68,9 +68,10 @@
     </p>
     <p>
       At first, I imagined annotating and creating different subdomain projects
-      with different frameworks under this domain, and I may come back to that,
-      but my attention has mostly been on other independent projects. You can
-      check out some of my public repos and project boards on my GitHub:
+      with different frameworks under this domain (listed below), and I may come
+      back to that, but my attention has mostly been on other independent
+      projects. You can check out some of my public repos and project boards on
+      my GitHub:
       <a href="https://github.com/harrydcole2">https://github.com/harrydcole2</a
       >
     </p>

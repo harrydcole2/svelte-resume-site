@@ -5,6 +5,7 @@
   import Navbar from "./lib/Navigation.svelte";
   import Home from "./routes/Home.svelte";
   import Projects from "./routes/Projects.svelte";
+  import Ideas from "./routes/Ideas.svelte";
   import Resources from "./routes/Resources.svelte";
   import Contact from "./routes/Contact.svelte";
 
@@ -36,7 +37,8 @@
     <div class="custom-container">
       <Router {url}>
         <Route path="/" component={Home} />
-        <Route path="/projects" components={Projects} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/ideas" component={Ideas} />
         <Route path="/resources" component={Resources} />
         <Route path="/contact" component={Contact} />
       </Router>
