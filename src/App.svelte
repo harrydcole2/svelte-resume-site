@@ -72,7 +72,7 @@
   }
 
   .scrolled {
-    margin-top: 5rem;
+    margin-top: 4rem;
     transition: all 0.3s ease;
   }
 
