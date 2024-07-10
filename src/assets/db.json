@@ -14,5 +14,17 @@
       "text": "This is a React.js project that mimics the classic Simon game. It was my first exposure to React, and actually started as a vanilla project so that we could understand its roots. More than anything, it act as a great resource for understanding how projects are built and deployed and the elements that go into a good web application. While Simon is a simple concept, there are a lot of features in the site that are added as examples of something more scalable, e.g. working with sound, making requests to an API, communication between users, etc.",
       "href": "https://simon.harrisondcole.click"
     }
+  ],
+  "ideas": [
+    {
+      "id": 1,
+      "title": "Tic-Tac-Toe",
+      "text": "This is a simple game that I think would be a good project to learn about the basics of React. It would be a good way to learn about state management and how to pass data between components. It would also be a good way to learn about the lifecycle of a React component and how to handle user input."
+    },
+    {
+      "id": 2,
+      "title": "Weather App",
+      "text": "This is a project that I think would be a good way to learn about working with APIs. It would be a good way to learn about how to make requests to an API and how to handle the data that is returned. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    }
   ]
 }

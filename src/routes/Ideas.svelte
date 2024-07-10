@@ -1,75 +1,7 @@
 <script>
-  import { onMount } from "svelte";
+  import api from "/src/utils/api";
 
-  let ideas = [];
-
-  // Fake ideas data
-  const fakeIdeas = [
-    {
-      id: 1,
-      title: "Idea 1",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi et, fuga architecto distinctio alias numquam!",
-    },
-    {
-      id: 2,
-      title: "Idea 2",
-      text: "Lorem ipsum dolor sit amet adipisicing elit. Consequuntur soluta itaque quo reprehenderit corrupti dolores accusamus culpa sunt nam adipisci.",
-    },
-    {
-      id: 3,
-      title: "Idea 3",
-      text: "Lorem ipsum dolor sit, amet consectetur ad",
-    },
-    {
-      id: 4,
-      title: "Idea 4",
-      text: "Lorem ipsum dolor",
-    },
-    {
-      id: 5,
-      title: "Idea 5",
-      text: "sicing elit. Consequuntur soluta itaque quo reprehenderit corrupti dolores accusamus culpa sunt nam adipi",
-    },
-    {
-      id: 6,
-      title: "Idea 6",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi et, fuga architecto distinctiLorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi et, fuga architecto distincti",
-    },
-    {
-      id: 7,
-      title: "Idea 7",
-      text: "Lorem ipsum dolor sit, amet consect",
-    },
-    {
-      id: 8,
-      title: "Idea 8",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi et, fuga architecto distincti",
-    },
-    {
-      id: 9,
-      title: "Idea 9",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi et, fuga architecto distinctiLorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi et, fuga architecto distinctiLorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi et, fuga architecto distincti",
-    },
-    {
-      id: 10,
-      title: "Idea 10",
-      text: "amet consectetur adipisicing elit. Nisi et, fuga archiamet consectetur adipisicing elit. Nisi et, fuga archi",
-    },
-    {
-      id: 11,
-      title: "Idea 11",
-      text: "amet consectetur adipisicing elit. Nisi et, fuga archiamet consectetur adipisicing elit. Nisi et, fuga archiamet consectetur adipisicing elit. Nisi et, fuga archi",
-    },
-    {
-      id: 12,
-      title: "Idea 12",
-      text: "lorem ipsum",
-    },
-  ];
-
-  onMount(() => {
-    ideas = fakeIdeas;
-  });
+  const ideas = api.get("/ideas");
 </script>
 
 <div class="container">

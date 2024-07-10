@@ -13,6 +13,8 @@ const fakeInstance = {
   get: (url) => {
     if (url === "/projectCards") {
       return database.projectCards;
+    } else if (url === "/ideas") {
+      return database.ideas;
     }
   },
 };
