@@ -25,6 +25,46 @@
       "id": 2,
       "title": "Weather App",
       "text": "This is a project that I think would be a good way to learn about working with APIs. It would be a good way to learn about how to make requests to an API and how to handle the data that is returned. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    },
+    {
+      "id": 3,
+      "title": "To-Do List",
+      "text": "This is a project that I think would be a good way to learn about state management in React. It would be a good way to learn about how to manage the state of a component and how to update it based on user input. It would also be a good way to learn about how to handle user input and how to display data on a webpage."
+    },
+    {
+      "id": 4,
+      "title": "Calculator",
+      "text": "This is a project that I think would be a good way to learn about working with forms in React. It would be a good way to learn about how to handle user input and how to update the state of a component based on that input. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    },
+    {
+      "id": 5,
+      "title": "Blog",
+      "text": "This is a project that I think would be a good way to learn about working with databases in React. It would be a good way to learn about how to store data in a database and how to retrieve it. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    },
+    {
+      "id": 6,
+      "title": "Chat App",
+      "text": "This is a project that I think would be a good way to learn about working with websockets in React. It would be a good way to learn about how to send and receive data in real-time. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    },
+    {
+      "id": 7,
+      "title": "E-Commerce Site",
+      "text": "This is a project that I think would be a good way to learn about working with APIs in React. It would be a good way to learn about how to make requests to an API and how to handle the data that is returned. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    },
+    {
+      "id": 8,
+      "title": "Portfolio Site",
+      "text": "This is a project that I think would be a good way to learn about working with CSS in React. It would be a good way to learn about how to style a webpage and how to make it responsive. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    },
+    {
+      "id": 9,
+      "title": "Social Media Site",
+      "text": "This is a project that I think would be a good way to learn about working with databases in React. It would be a good way to learn about how to store data in a database and how to retrieve it. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+    },
+    {
+      "id": 10,
+      "title": "Recipe App",
+      "text": "This is a project that I think would be a good way to learn about working with APIs in React. It would be a good way to learn about how to make requests to an API and how to handle the data that is returned. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
     }
   ]
 }

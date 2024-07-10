@@ -4,12 +4,12 @@
   const ideas = api.get("/ideas");
 </script>
 
+<br />
 <div class="container">
   <div class="masonry">
     {#each ideas as idea}
       <div class="masonry-item">
         <div class="card">
-          <img src={idea.picture} class="card-img-top" alt={idea.title} />
           <div class="card-body">
             <h5 class="card-title">{idea.title}</h5>
             <p class="card-text">{idea.text}</p>
