@@ -18,53 +18,88 @@
   "ideas": [
     {
       "id": 1,
-      "title": "Tic-Tac-Toe",
-      "text": "This is a simple game that I think would be a good project to learn about the basics of React. It would be a good way to learn about state management and how to pass data between components. It would also be a good way to learn about the lifecycle of a React component and how to handle user input."
+      "title": "Custom Minesweeper Solver",
+      "text": "I probably am somewhere in the top 1% of minesweeper players. When I am distracted or need to think, I play (and often don't finish haha). I think it would be interesting to make a minesweeper variant and solver with different shapes and patterns, and different game permutations (maybe even 3-D if I can make the GUI intuitive). Once I've established the rules and all the architecture, I want to build a model to solve it, either intuitively or with some machine learning. Something I've noticed in regular minesweeper is that some game permutations are impossible to solve without chance and that others are intentionally rare/removed to make the board solvable more frequently, so it would be interesting to mess with these \"dials\" to see test out what happens in my variant."
     },
     {
       "id": 2,
-      "title": "Weather App",
-      "text": "This is a project that I think would be a good way to learn about working with APIs. It would be a good way to learn about how to make requests to an API and how to handle the data that is returned. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "Zettelkasten App",
+      "text": "The Zettelkasten Method is a particular way to organize notes created by Niklas Luhmann in the 1950s. The idea is to create a web of small notes that link together in a graphical manner through tabs and note coordinates. Definitely worth a google if you are interested. There are some platforms for creating linked notes, but I think they are a too complex and hard to navigate effectively online. I think it would be interesting to create a simple, intuitive, and visually appealing web app that allows you to create and link notes graphically, like on a Zettelkasten whiteboard."
     },
     {
       "id": 3,
-      "title": "To-Do List",
-      "text": "This is a project that I think would be a good way to learn about state management in React. It would be a good way to learn about how to manage the state of a component and how to update it based on user input. It would also be a good way to learn about how to handle user input and how to display data on a webpage."
+      "title": "Pagable \"Wrapper\" for Instagram",
+      "text": "Studies show that one of the key reasons that people get adicted to social media is because of infinite scrolling. There is no clear signal to the brain to stop. There is some evidence that by implementing some kind of paging similar to google search results, people spend less time on social media, sort of by messing with the experience. As far as I can tell nothing like this exists yet, and that may be because the API isn't exposed or something, but it would be worthwhile to figure out what such a project what take and it could make a difference for people who give it a try. Maybe it could be a wrapper of any website or app?"
     },
     {
       "id": 4,
-      "title": "Calculator",
-      "text": "This is a project that I think would be a good way to learn about working with forms in React. It would be a good way to learn about how to handle user input and how to update the state of a component based on that input. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "LDS Notes Script and GUI App",
+      "text": "When you have a lot of notes and quotes in a scripture app like LDS library, it is hard to keep track of them and view/sort them in an reliable way. But you can download a CSV of your notes for the LDS app (and other established ones too). they already have tags, text, and other things in that CSV, and I think it would be interesting to make a GUI tool for your CSV notes that allows you to filter, search, and view them better than you can natively in the app. I am thinking that you could update your GUI against your current CSV with some kind of script that checks the old CSV against the new one to refresh your GUI tool as needed. I would be curious if there is an API I could use to automate the process on login."
     },
     {
       "id": 5,
-      "title": "Blog",
-      "text": "This is a project that I think would be a good way to learn about working with databases in React. It would be a good way to learn about how to store data in a database and how to retrieve it. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "Custom Basketball Statistics App",
+      "text": "I love basketball and when march madness or the playoffs come around, I watch them religiously. It's also fun to compare stats and I'm always amazed at the totally random ones in my feed. There are lots of APIs to access basketball stats. My idea would be to make an app that allows you to request statistics for players and turn them into custom proportions or new statistics. It would be similar to a family search app I worked on."
     },
     {
       "id": 6,
-      "title": "Chat App",
-      "text": "This is a project that I think would be a good way to learn about working with websockets in React. It would be a good way to learn about how to send and receive data in real-time. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "Google Maps API Project",
+      "text": "There are a lot of cool things you can do with Google maps, and I think it would be fun to test the limits. Maybe a map that fills in as you travel with an accompanying journal, a marco polo game that pings devices with distances/directions, a treasure hunt game that takes you to the biggest places in a town, a geocaching app if it has some kind of API exposed, or a location based chatroom of sorts."
     },
     {
       "id": 7,
-      "title": "E-Commerce Site",
-      "text": "This is a project that I think would be a good way to learn about working with APIs in React. It would be a good way to learn about how to make requests to an API and how to handle the data that is returned. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "Political Tracker Framework",
+      "text": "Politics is a tricky thing and good knowledge on it is hard to come by, and I'm not sure a tech solution is the right one, but I definitely have wished there was a way to actually know what our representatives were doing and how they voted. In the realm of sports we have timelines, career statistics, and more available on the NBA app, on the tennis app, on any sports app you can really think of. What if we had that same kind of objective focus on politians that we have on our athletes? Would that be good or bad, and how would it be received? I wouldn't be able to maintain this app but I have thought about creating the infrastructure for something like this and it could be interesting. Maybe add some AI fact checking too."
     },
     {
       "id": 8,
-      "title": "Portfolio Site",
-      "text": "This is a project that I think would be a good way to learn about working with CSS in React. It would be a good way to learn about how to style a webpage and how to make it responsive. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "Ranker Dating App",
+      "text": "Ranker is sort of a running joke for my family, who sometimes jokingly quip that people should only date people in their own league. The idea of the Ranker dating app is to actually make that a reality by having people apply and actually be quote-on-quote professionally (AI or friends survey?) ranked according to a category (a number feels bad) and find a match in that niche. Those ranks and matches could potentially be crowdsourced (by moms?). Not a commercial product but could be fun practice."
     },
     {
       "id": 9,
-      "title": "Social Media Site",
-      "text": "This is a project that I think would be a good way to learn about working with databases in React. It would be a good way to learn about how to store data in a database and how to retrieve it. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "VS Code Commments Extension",
+      "text": "In VS Code, I think it would be potentially useful to have comments that you could toggle on and off for a file as a lightweight way to explain code to peers without overdoing it and not explaining things that aren't necessary. It would also be nice to give formatting to those comments. I don't know if that could be handled via extension or via an editor fork, but I think it could contribute to maintaining good code. I think it would be cool if those comments were all compacted into a single file that the editor could read and distribute to the code itself when you are in the editor (similar to git notifications)."
     },
     {
       "id": 10,
-      "title": "Recipe App",
-      "text": "This is a project that I think would be a good way to learn about working with APIs in React. It would be a good way to learn about how to make requests to an API and how to handle the data that is returned. It would also be a good way to learn about how to display data on a webpage and how to make it interactive."
+      "title": "Better Swagger GUI Middleware in .NET",
+      "text": "In my experience and the experience of many developers, swagger's authentication for endpoints can be tedious because it doesn't streamline the process of getting auth tokens and doesn't save anything between runs. For that reason, many people have turned to Postman which is a great resource too, but can be a little time intensive to set up when you have a lot of endpoints to manage and test. Would be interesting to see what part of this problem I could address with a middleware built on top of Swagger (which I am not sure other than I think it is open source)."
+    },
+    {
+      "id": 11,
+      "title": "Graphic EF Core",
+      "text": "EF Core is a Code first approach to managing a .NET database by generating a migrations stack. It works by scanning your entity code for properties and relationships it can use to derive SQL relationships behind the scenes. Those relationships would be great to turn into an interactive domain model graph, similar to how Mendix's domain model works. If I get it right, it could help debug problems in the database and it would help me really master EF core."
+    },
+    {
+      "id": 12,
+      "title": "GPT Extention for OneNote (or note alternative)",
+      "text": "In a modern class setting, students frequently use ChatGPT when they are taking notes, especially about jargin they may not understand. If you could have a small query from ChatGPT fill the size of a OneNote textbox, it could serve as a side note to whatever a student is learning in class and supplement the material they use to review for a test. It could help integrate AI into the learning process."
+    },
+    {
+      "id": 13,
+      "title": "Fish Investing",
+      "text": "I think it would be cool to invest in a few penny stocks based on the movements of a fish or animal migrations (Movebank API) or something along those lines. Nothing really serious should be at stake with this, but it could make for a curious mix of software and hardware. It would be a good test of whether your fish is lucky."
+    },
+    {
+      "id": 14,
+      "title": "Recipe Collection",
+      "text": "Scan in your recipes and share them with friends and family through a convenient recipe site! The website would scan in pictures and ask you to correct parts that it couldn't make out with manually via ML. Those recipes would then be standardized in a particular layout and shared throughout the site. You could add collections too, such as a family cookbook that you want to save forever. Other features could include searching by ingredients or rating recipes."
+    },
+    {
+      "id": 15,
+      "title": "A Fake AI News Site",
+      "text": "My idea would be to use an AI endpoint with news prompts to generate dozens of fake images and articles on a presentable news site and requery them each night. Obviously, I would inform everyone that the articles are fake, but it would be interesting to see what it could come up with and how realistic those articles look if I create the styling."
+    },
+    {
+      "id": 16,
+      "title": "Public Holiday API",
+      "text": "Each day is a holiday in some respect or another, even if its not a major holiday. There are APIs for them that you can query for data about holidays against dates and make that into a presentable form, then come up with some activities for those holidays. Frankly, this is a stand-in for working with any free API out there, which would follow the same sort of recipe. If you wanted to get really meta, you could make a more universal GUI for free APIs of a particular format."
+    },
+    {
+      "id": 17,
+      "title": "Transfer Playlists between Spotify/Apple Music",
+      "text": "Spotify and Apple Music are two of the leaders in the music industy, but sharing playlists between them has always been clunky. The solutions out there are hard-to-use. I know Spotify's API is free with an account and Apple's API is likewise exposed, but it is unclear whether the data would transfer in any meaningful way. The point of reference for this is Shazam, which seems capable of publishing on both platforms."
     }
   ]
 }

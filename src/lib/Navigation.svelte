@@ -58,7 +58,7 @@
                 location.pathname.includes("/ideas") ||
                 location.pathname.includes("/resources")}
             >
-              Coding
+              Coding Archive
             </a>
             <ul class="dropdown-menu">
               <li>
