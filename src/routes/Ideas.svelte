@@ -22,13 +22,8 @@
 
 <style>
   .masonry {
-    column-count: 4;
+    column-count: 3;
     column-gap: 1rem;
-  }
-  @media (max-width: 1200px) {
-    .masonry {
-      column-count: 3;
-    }
   }
   @media (max-width: 992px) {
     .masonry {
