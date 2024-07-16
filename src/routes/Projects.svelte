@@ -12,10 +12,10 @@
   <section>
     <h2>Past Projects</h2>
     <p>
-      This tab is dedicated to projects I have worked on that I can't save to a
-      public repository because the code is proprietary. It is especially
-      dedicated to lessons I learned on these projects and remembering how they
-      were built.
+      This tab is dedicated to production applications I have worked on that I
+      can't save to a public repository because the code is proprietary. It is
+      especially dedicated to lessons I learned on these projects and
+      remembering how they were built.
     </p>
     <p>
       <a href="https://github.com/harrydcole2">
