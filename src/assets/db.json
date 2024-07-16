@@ -21,21 +21,24 @@
       "title": "Celebrate Life Co.",
       "body": "One of my most extensive projects is the website of Celebrate Life Co, which is a tech startup aimed at automating some of the processes related to grave sites and documenting memorials to those who have passed on. The site maps out where graves are located, allows users to create online tributes to accompany grave sites, and has an extensive collection of articles and resources for writing tributes. I was the primary fullstack developer for this project, which uses a C# Backend, a React.js Frontend, and a Postgres database with all the bells and whistles. I also got to participate in writing the issues and creating the designs for the project. I would call it some of my best programming to date.",
       "href": "https://www.celebratelifeco.com/",
-      "img": "https://www.celebratelifeco.com/static/media/celebrate-life-logo.3b3b3b3b.png"
+      "images": ["mri_1.png", "mri_2.png", "mri_3.png"],
+      "dir": "src/assets/MRI"
     },
     {
       "id": 2,
       "title": "Otterstrom Family Migration Research App",
       "body": "While working as a web developer at BYU, I built a website that queries the FamilySearch API for information about migration patterns. You could search for up to 5000 records from a particular nation, state, county, or city, then determine where up to 8 generations of ancestors or descendents were born, married, or died. The results would then be mapped out and statistics would be generated for them. The site was used to publish research at a few conferences. This project taught me a lot about APIs and managing large datasets, and that was where a lot of my focus was.",
-      "href": "https://familysearch.harrisondcole.click",
-      "img": "https://familysearch.harrisondcole.click/static/media/familysearch-logo.3b3b3b3b.png"
+      "href": "https://otterfmr.byu.edu/p/login",
+      "images": ["fmr_1.png", "fmr_2.png", "fmr_3.png, fmr_4.png"],
+      "dir": "/src/assets/otterFMR"
     },
     {
       "id": 3,
       "title": "DevOps Days Boise App",
       "body": "One of my first programming projects was to build a website for DevOps Days Boise. The site was built with C# and Xamarin Forms as part of an internship I participated in before I began college. It is where I really developed a passion for programming. The app was used to manage the conference schedule, speakers, and sponsors. It was a great experience to work with a team and to see the project through from start to finish. I learned a lot about the importance of communication and collaboration, and I was able to see the impact that a well-designed website can have on an event.",
-      "href": "https://devopsdaysboise.com/",
-      "img": "https://devopsdaysboise.com/static/media/devops-days-logo.3b3b3b3b.png"
+      "href": "",
+      "images": ["devOps_1.png", "devOps_2.png", "devOps_3.png"],
+      "dir": "src/assets/devOpsDays"
     }
   ],
   "ideas": [

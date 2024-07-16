@@ -1,6 +1,8 @@
 <script>
   import { Container } from "@sveltestrap/sveltestrap";
   import api from "/src/utils/api";
+  import Carousel from "../lib/Carousel.svelte";
+
   const projects = api.get("/projects");
 </script>
 
@@ -27,7 +29,7 @@
     {#each projects as project}
       <hr />
       <div class="project">
-        <img src={project.picture} alt={project.title} class="project-image" />
+        <Carousel images={project.images} dir={project.dir} />
         <div class="project-content">
           <h3>{project.title}</h3>
           <p>{project.body}</p>
@@ -45,19 +47,12 @@
 
   .project {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     margin: 1rem 0;
   }
 
-  .project-image {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 1rem;
-  }
-
   .project-content {
-    flex: 1;
+    margin-top: 1rem;
   }
 
   hr {
