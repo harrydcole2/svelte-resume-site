@@ -17,6 +17,8 @@ const fakeInstance = {
       return database.ideas;
     } else if (url === "/projects") {
       return database.projects;
+    } else if (url === "/resources") {
+      return database.resources;
     }
   },
 };

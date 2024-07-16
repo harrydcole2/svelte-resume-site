@@ -143,5 +143,35 @@
       "title": "Transfer Playlists between Spotify/Apple Music",
       "text": "Spotify and Apple Music are two of the leaders in the music industy, but sharing playlists between them has always been clunky. The solutions out there are hard-to-use. I know Spotify's API is free with an account and Apple's API is likewise exposed, but it is unclear whether the data would transfer in any meaningful way. The point of reference for this is Shazam, which seems capable of publishing on both platforms."
     }
+  ],
+  "resources": [
+    {
+      "title": "Frontend Technologies",
+      "description": "Essential tools and libraries for frontend development",
+      "items": [
+        {
+          "title": "React",
+          "description": "A JavaScript library for building user interfaces"
+        },
+        {
+          "title": "Svelte",
+          "description": "Cybernetically enhanced web apps"
+        }
+      ]
+    },
+    {
+      "title": "Backend Technologies",
+      "description": "Powerful tools for server-side development",
+      "items": [
+        {
+          "title": "C# / .NET",
+          "description": "A versatile framework for building web applications"
+        },
+        {
+          "title": "Node.js",
+          "description": "JavaScript runtime built on Chrome's V8 JavaScript engine"
+        }
+      ]
+    }
   ]
 }
