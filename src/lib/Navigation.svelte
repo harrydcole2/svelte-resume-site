@@ -1,6 +1,6 @@
 <script>
   import { link } from "svelte-routing";
-  import Photo from "/src/assets/HarrisonPhoto.jpg";
+  import Photo from "/src/assets/harrison_photo.jpg";
 
   export let isScrolled;
 
