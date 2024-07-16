@@ -150,26 +150,76 @@
       "description": "Essential tools and libraries for frontend development",
       "items": [
         {
-          "title": "React",
-          "description": "A JavaScript library for building user interfaces"
+          "title": "JS Frameworks (Vite supported)",
+          "description": "React • Angular • Vue • Svelte (w/ Kit) • \"Vanilla\""
         },
         {
-          "title": "Svelte",
-          "description": "Cybernetically enhanced web apps"
+          "title": "Styling Paradigms",
+          "description": "CSS/SCSS • MUI • Styled Components • Iconify • Fluent UI • Bootstrap/Reactstrap • Tailwind"
+        },
+        {
+          "title": "State Management (Global, Server, etc.)",
+          "description": "Redux • Flux • Context API • React Router • ReactQuery w/ Axios • React Hook Form • Formik • Yup/Zod • XState • Immer"
+        },
+        {
+          "title": "Extension Libraries",
+          "description": "GoogleMaps • Mapbox w/ ReactMap GL • Stripe • Shippo • Replicache • Anime.js • Three.js • Framer Motion • Chart.js • D3.js • LoDash • Moment.js/date-fns • Websockets • Apexcharts • Dropzone • Notistack • React Lightbox • Simplebar • React Quill • React Markdown"
+        },
+        {
+          "title": "Testing",
+          "description": "Jest • Selenium • JSON Server • Bacon Ipsum • Random User • HotJar • Google Analytics • Pingdom"
+        },
+        {
+          "title": "Web Certificate and Servers",
+          "description": "Caddy, Let's Encrypt w/ Certbot, Nginx, Apache • Cloud Providers (Vercel, AWS, Azure, etc.)"
         }
       ]
     },
     {
-      "title": "Backend Technologies",
+      "title": "Backend and Cloud Technologies",
       "description": "Powerful tools for server-side development",
       "items": [
         {
-          "title": "C# / .NET",
-          "description": "A versatile framework for building web applications"
+          "title": "Endpoint Frameworks",
+          "description": "C# w/ .NET API • Node.js ⇔ Express.js • Python Flask/Django • Serverless (Lambdas, Gateway, etc.)"
         },
         {
-          "title": "Node.js",
-          "description": "JavaScript runtime built on Chrome's V8 JavaScript engine"
+          "title": "Databases",
+          "description": "EF Core • PostgreSQL (PgAdmin) • MySQL • MongoDB • DynamoDB • Redis"
+        },
+        {
+          "title": "API Tools",
+          "description": "Postman • Swagger • JWT.io • OAuth • Odata Query • Curl • Hangfire (CronGuru) • Regex101"
+        },
+        {
+          "title": "Containerization, Virtualization",
+          "description": "Docker • Kubernetes • Localstack • Helm"
+        },
+        {
+          "title": "Cloud Services",
+          "description": "Route53 • API Gateway • AWS Lambda • Elastic Beanstalk • Cloudfront • S3 Buckets • Terraform"
+        }
+      ]
+    },
+    {
+      "title": "Business Tools",
+      "description": "Essential tools for managing a business",
+      "items": [
+        {
+          "title": "Design",
+          "description": "Figma • Adobe XD • Canva • Storybook • Draw.io • Lucidchart • Miro • Paletton • Coolors • Toptal Subtle Patterns • UI Design Daily"
+        },
+        {
+          "title": "Project Management",
+          "description": "Git • GitHub • Bitbucket • Jira • Trello • Monday • ServiceNow • Microsoft Teams • Slack • Kanban • Scrum"
+        },
+        {
+          "title": "Employee Education",
+          "description": "Pluralsight • Udemy • Coursera • LinkedIn Learning • Codecademy • State of JS • Dev.to • Daily.dev"
+        },
+        {
+          "title": "Sales and Marketing",
+          "description": "Google Ads • Facebook Ads • LinkedIn Navigator • Mailchimp • Hubspot • Google Analytics • HotJar • SEO Content"
         }
       ]
     }

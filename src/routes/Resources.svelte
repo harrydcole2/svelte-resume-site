@@ -21,15 +21,17 @@
   {#each resources as category}
     <div class="card mb-4 outer-card">
       <div class="card-body">
-        <h3 class="card-title">{category.title}</h3>
-        <p class="card-text">{category.description}</p>
+        <h3 class="card-title" style="padding-bottom: 6px">{category.title}</h3>
+        <!-- <p class="card-text">{category.description}</p> -->
         <div class="row">
           {#each category.items as item}
             <div class="col-12 mb-3">
               <div class="card h-100 inner-card">
                 <div class="card-body">
-                  <h4 class="card-title">{item.title}</h4>
-                  <p class="card-text">{item.description}</p>
+                  <p class="card-text">
+                    <strong>{item.title}:</strong>
+                    {item.description}
+                  </p>
                 </div>
               </div>
             </div>
