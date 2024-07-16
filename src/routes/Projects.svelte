@@ -15,7 +15,7 @@
       This tab is dedicated to production applications I have worked on that I
       can't save to a public repository because the code is proprietary. It is
       especially dedicated to lessons I learned on these projects and
-      remembering how they were built.
+      remembering how they were built. Take a look around!
     </p>
     <p>
       <a href="https://github.com/harrydcole2">

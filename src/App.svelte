@@ -77,7 +77,7 @@
   }
 
   .not-scrolled {
-    margin-top: 13.5rem;
+    margin-top: 12.5rem;
     transition: all 0.6s ease;
   }
 </style>

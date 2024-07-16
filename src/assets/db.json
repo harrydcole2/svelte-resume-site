@@ -26,19 +26,35 @@
     },
     {
       "id": 2,
-      "title": "Otterstrom Family Migration Research App",
-      "body": "While working as a web developer at BYU, I built a website that queries the FamilySearch API for information about migration patterns. You could search for up to 5000 records from a particular nation, state, county, or city, then determine where up to 8 generations of ancestors or descendents were born, married, or died. The results would then be mapped out and statistics would be generated for them. The site was used to publish research at a few conferences. This project taught me a lot about APIs and managing large datasets, and that was where a lot of my focus was.",
+      "title": "Otterstrom Family Migration Research",
+      "body": "While working as a web developer at BYU, I built a website that queries the FamilySearch API for information about migration patterns. You could search for up to 5000 records from a particular nation, state, county, or city, then determine where up to 8 generations of ancestors or descendents were born, married, or died. The results would then be mapped out and statistics would be generated for them. The site was used to publish research at a few conferences. This project taught me a lot about APIs (FamilySearch and Google Maps primarily) and managing large datasets. Because the computations could take a long time, I also learned about how to optimize algorithms.",
       "href": "https://otterfmr.byu.edu/p/login",
       "images": ["fmr_1.png", "fmr_2.png", "fmr_3.png", "fmr_4.png"],
       "dir": "/src/assets/otterFMR"
     },
     {
       "id": 3,
+      "title": "Redd Center Grants",
+      "body": "BYU offers a variety of scholarships and grants for research opportunities in the humanities. At the Mary Lou Fulton conference, students are able to present their work and receive feedback from their peers and mentors, and the Redd Center is a big piece of the funding for this event and the research that comes of it. I helped build a website that allows the center to post grants, accept applications, and judge those applications remotely. The hardest piece of this project was the dynamic form that determined the application fields for various grants, and making that experience intuitive for the administrators. Built with a React frontend and Java backend.",
+      "href": "https://reddcentergrants.byu.edu",
+      "images": ["redd_1.png", "redd_2.png", "redd_3.png"],
+      "dir": "src/assets/reddCenter"
+    },
+    {
+      "id": 4,
       "title": "DevOps Days Boise App",
       "body": "One of my first programming projects was to build a website for DevOps Days Boise. The site was built with C# and Xamarin Forms as part of an internship I participated in before I began college. It is where I really developed a passion for programming. The app was used to manage the conference schedule, speakers, and sponsors. It was a great experience to work with a team and to see the project through from start to finish. I learned a lot about the importance of communication and collaboration, and I was able to see the impact that a well-designed website can have on an event.",
       "href": "",
       "images": ["devOps_1.png", "devOps_2.png", "devOps_3.png"],
       "dir": "src/assets/devOpsDays"
+    },
+    {
+      "id": 5,
+      "title": "MRI Research Facility",
+      "body": "BYU has an MRI machine in the McDonald Building, and it requires a lot of coordination to keep it running. In this app, I helped fix problems with the scheduling and training pages on this application and refactored the code so that it would be more maintainable/extendable. It was also an application that I used to onboard another developer with our patterns and conventions. This site was made with Java, React, and PostgreSQL.",
+      "href": "https://mri.byu.edu",
+      "images": ["mri_1.png", "mri_2.png", "mri_3.png"],
+      "dir": "src/assets/mri"
     }
   ],
   "ideas": [
@@ -75,7 +91,7 @@
     {
       "id": 7,
       "title": "Political Tracker Framework",
-      "text": "Politics is a tricky thing and good knowledge on it is hard to come by, and I'm not sure a tech solution is the right one, but I definitely have wished there was a way to actually know what our representatives were doing and how they voted. In the realm of sports we have timelines, career statistics, and more available on the NBA app, on the tennis app, on any sports app you can really think of. What if we had that same kind of objective focus on politians that we have on our athletes? Would that be good or bad, and how would it be received? I wouldn't be able to maintain this app but I have thought about creating the infrastructure for something like this and it could be interesting. Maybe add some AI fact checking too."
+      "text": "Politics is a tricky thing and good knowledge on it is hard to come by. I'm not sure a tech solution is the right one, but I definitely have wished there was a way to actually know what our representatives were doing and how they voted. In the realm of sports we have timelines, career statistics, and more available on the NBA app, on the tennis app, on any sports app you can really think of. What if we had that same kind of objective focus on politians that we have on our athletes? Would that be good or bad, and how would it be received? I wouldn't be able to maintain this app but I have thought about creating the infrastructure for something like this and it could be interesting. Maybe add some AI fact checking too."
     },
     {
       "id": 8,
@@ -95,7 +111,7 @@
     {
       "id": 11,
       "title": "EF Core ERD on Default Relationships",
-      "text": "EF Core is a Code first approach to managing a .NET database by generating a migrations stack. It works by scanning your entity code for properties and relationships it can use to derive SQL relationships behind the scenes. Those relationships would be great to turn into an interactive domain model graph, similar to how Mendix's domain model works. If I get it right, it could help debug problems in the database and it would help me really master EF core. Alternative ERD tools exist, but I don't like them very much and transitioning between them is non-trivial."
+      "text": "EF Core is a code first approach to managing a .NET database by generating a migrations stack. It works by scanning your entity code for properties and relationships it can use to derive SQL relationships behind the scenes. Those relationships would be great to turn into an interactive domain model graph, similar to how Mendix's domain model works. If I get it right, it could help debug problems in the database and it would help me really master EF core. Alternative ERD tools exist, but I don't like them very much and transitioning between them is non-trivial."
     },
     {
       "id": 12,
