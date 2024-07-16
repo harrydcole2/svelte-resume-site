@@ -52,7 +52,7 @@
   .carousel {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 450px;
     overflow: hidden;
   }
 

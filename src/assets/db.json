@@ -29,7 +29,7 @@
       "title": "Otterstrom Family Migration Research App",
       "body": "While working as a web developer at BYU, I built a website that queries the FamilySearch API for information about migration patterns. You could search for up to 5000 records from a particular nation, state, county, or city, then determine where up to 8 generations of ancestors or descendents were born, married, or died. The results would then be mapped out and statistics would be generated for them. The site was used to publish research at a few conferences. This project taught me a lot about APIs and managing large datasets, and that was where a lot of my focus was.",
       "href": "https://otterfmr.byu.edu/p/login",
-      "images": ["fmr_1.png", "fmr_2.png", "fmr_3.png, fmr_4.png"],
+      "images": ["fmr_1.png", "fmr_2.png", "fmr_3.png", "fmr_4.png"],
       "dir": "/src/assets/otterFMR"
     },
     {
