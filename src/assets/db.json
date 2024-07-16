@@ -1,5 +1,5 @@
 {
-  "projectCards": [
+  "demos": [
     {
       "id": 1,
       "title": "Blackjack Game",
@@ -13,6 +13,29 @@
       "subtitle": "React.js Demo",
       "text": "This is a React.js project that mimics the classic Simon game. It was my first exposure to React, and actually started as a vanilla project so that we could understand its roots. More than anything, it act as a great resource for understanding how projects are built and deployed and the elements that go into a good web application. While Simon is a simple concept, there are a lot of features in the site that are added as examples of something more scalable, e.g. working with sound, making requests to an API, communication between users, etc.",
       "href": "https://simon.harrisondcole.click"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Celebrate Life Co.",
+      "body": "One of my proudest projects has definitely been working on the Celebrate Life Co. website. This website was built with a C# Backend and a React.js Frontend and exhibits some of my best programming to date. The company's mission is to automate the processes related to graveyards and sites, and the website is a great example of how technology can be used to make a difference in the world. I was able to work with a team of developers and designers to create a website that is both functional and visually appealing. I learned a lot about the importance of user experience and how to create a website that is easy to navigate and use. I also learned a lot about the importance of communication and collaboration when working on a project like this. I am proud of the work that I did on this website and I am excited to see how it will be used in the future.",
+      "href": "https://www.celebratelifeco.com/",
+      "img": "https://www.celebratelifeco.com/static/media/celebrate-life-logo.3b3b3b3b.png"
+    },
+    {
+      "id": 2,
+      "title": "Otterstrom Family Migration Research App",
+      "body": "While working as a web developer at BYU, I built a website that queries the FamilySearch API for information about migration patterns. You could search for up to 5000 records from a particular nation, state, county, or city, then determine where up to 8 generations of ancestors or descendents were born, married, or died. The results would then be mapped out and statistics would be generated for them. The site was used to publish research at a few conferences. This project taught me a lot about APIs and managing large datasets, and that was where a lot of my focus was.",
+      "href": "https://familysearch.harrisondcole.click",
+      "img": "https://familysearch.harrisondcole.click/static/media/familysearch-logo.3b3b3b3b.png"
+    },
+    {
+      "id": 3,
+      "title": "DevOps Days Boise App",
+      "body": "One of my first programming projects was to build a website for DevOps Days Boise. The site was built with C# and Xamarin Forms as part of an internship I participated in before I began college. It is where I really developed a passion for programming. The app was used to manage the conference schedule, speakers, and sponsors. It was a great experience to work with a team and to see the project through from start to finish. I learned a lot about the importance of communication and collaboration, and I was able to see the impact that a well-designed website can have on an event.",
+      "href": "https://devopsdaysboise.com/",
+      "img": "https://devopsdaysboise.com/static/media/devops-days-logo.3b3b3b3b.png"
     }
   ],
   "ideas": [
@@ -68,8 +91,8 @@
     },
     {
       "id": 11,
-      "title": "Graphic EF Core",
-      "text": "EF Core is a Code first approach to managing a .NET database by generating a migrations stack. It works by scanning your entity code for properties and relationships it can use to derive SQL relationships behind the scenes. Those relationships would be great to turn into an interactive domain model graph, similar to how Mendix's domain model works. If I get it right, it could help debug problems in the database and it would help me really master EF core."
+      "title": "EF Core ERD on Default Relationships",
+      "text": "EF Core is a Code first approach to managing a .NET database by generating a migrations stack. It works by scanning your entity code for properties and relationships it can use to derive SQL relationships behind the scenes. Those relationships would be great to turn into an interactive domain model graph, similar to how Mendix's domain model works. If I get it right, it could help debug problems in the database and it would help me really master EF core. Alternative ERD tools exist, but I don't like them very much and transitioning between them is non-trivial."
     },
     {
       "id": 12,

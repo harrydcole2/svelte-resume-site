@@ -115,7 +115,7 @@
     width: 12rem;
     height: 12rem;
     border-radius: 50%;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
   }
 
   .avatar-shrunk {

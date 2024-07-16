@@ -21,7 +21,7 @@
   } from "@sveltestrap/sveltestrap";
 
   import api from "/src/utils/api";
-  const projectCards = api.get("/projectCards");
+  const projectCards = api.get("/demos");
 
   let isOpen = false;
 

@@ -11,10 +11,12 @@ const instance = axios.create({
 
 const fakeInstance = {
   get: (url) => {
-    if (url === "/projectCards") {
+    if (url === "/demos") {
       return database.projectCards;
     } else if (url === "/ideas") {
       return database.ideas;
+    } else if (url === "/projects") {
+      return database.projects;
     }
   },
 };

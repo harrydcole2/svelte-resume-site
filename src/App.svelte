@@ -73,11 +73,11 @@
 
   .scrolled {
     margin-top: 4rem;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
   }
 
   .not-scrolled {
-    margin-top: 13.5rem;
-    transition: all 0.3s ease;
+    margin-top: 14.5rem;
+    transition: all 0.6s ease;
   }
 </style>

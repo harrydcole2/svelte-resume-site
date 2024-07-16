@@ -1,25 +1,7 @@
 <script>
-  // Import necessary components from Sveltestrap
   import { Container } from "@sveltestrap/sveltestrap";
-
-  // Fake data objects for projects
-  const projects = [
-    {
-      picture: "https://via.placeholder.com/150",
-      title: "Project One",
-      body: "Description of project one. This project involves...",
-    },
-    {
-      picture: "https://via.placeholder.com/150",
-      title: "Project Two",
-      body: "Description of project two. This project was focused on...",
-    },
-    {
-      picture: "https://via.placeholder.com/150",
-      title: "Project Three",
-      body: "Description of project three. The main challenge of this project was...",
-    },
-  ];
+  import api from "/src/utils/api";
+  const projects = api.get("/projects");
 </script>
 
 <main>
@@ -41,7 +23,6 @@
   </section>
   <br />
 
-  <!-- Container for the list of projects -->
   <Container>
     {#each projects as project}
       <hr />
