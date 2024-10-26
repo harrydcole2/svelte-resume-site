@@ -8,6 +8,7 @@
   import Ideas from "./routes/Ideas.svelte";
   import Resources from "./routes/Resources.svelte";
   import Contact from "./routes/Contact.svelte";
+  import Resume from "./routes/Resume.svelte";
 
   let isScrolled = false;
 
@@ -37,6 +38,7 @@
     <div class="custom-container">
       <Router {url}>
         <Route path="/" component={Home} />
+        <Route path="/resume" component={Resume} />
         <Route path="/projects" component={Projects} />
         <Route path="/ideas" component={Ideas} />
         <Route path="/resources" component={Resources} />

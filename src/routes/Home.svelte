@@ -63,8 +63,8 @@
       introductory CS class, but as I still own the domain and virtual server, I
       wanted to (a) get some basic practice with Svelte, and (b) document some
       packages, technologies, and ideas about web development. Think of it as my
-      waystation for web development. Check out some of the content below and on
-      other tabs!
+      waystation for web dev. Check out some of the content below and on other
+      tabs!
     </p>
     <p>
       At first, I imagined annotating and creating different subdomain projects

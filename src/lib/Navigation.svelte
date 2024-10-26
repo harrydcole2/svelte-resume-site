@@ -47,6 +47,15 @@
               href="/">Home</a
             >
           </li>
+          <li class="nav-item">
+            <a
+              use:link
+              class="nav-link nav-link-custom"
+              on:click={recalculateLocation}
+              class:active={location.pathname === "/resume"}
+              href="/resume">Resume</a
+            >
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle nav-link-custom"
