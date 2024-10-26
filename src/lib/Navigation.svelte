@@ -31,7 +31,7 @@
               <h1>Cole</h1>
             </div>
             <p style="margin-left: 1rem; margin-top: 1rem">
-              🏠 Provo | 🎓 BYU 2025 | 💼 3jlabs
+              🏠 Provo | 🎓 BYU 2025 | 💼 Foundria
             </p>
           </div>
         {/if}

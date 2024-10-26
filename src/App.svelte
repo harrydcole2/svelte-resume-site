@@ -67,7 +67,7 @@
   }
 
   .custom-container {
-    background: white;
+    background: rgb(254, 254, 254);
     padding: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-height: 100vh;
